@@ -1,0 +1,59 @@
+@import "../../styles/colors.module";
+
+.navbar {
+  background-color: transparent;
+  padding: 20px 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  &__links {
+    display: flex;
+    list-style: none;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $grey-color;
+    padding: 10px;
+  }
+  &__download-btn {
+    padding: 15px 30px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+  }
+  &__download-btn:hover {
+    cursor: pointer;
+  }
+  &__download {
+    margin-left: 20px;
+  }
+  &__logo {
+    max-width: 50px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &__download-btn {
+      background-color: $dark-blue-color;
+    }
+    &__link {
+      a:hover {
+        color: white;
+      }
+    }
+  }
+  @media (prefers-color-scheme: light) {
+    &__download-btn {
+      background-color: $light-blue-color;
+    }
+    &__link {
+      a:hover {
+        color: black;
+      }
+    }
+  }
+}

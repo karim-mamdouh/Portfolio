@@ -1,0 +1,72 @@
+@import "../../styles/colors.module";
+@import "../../styles/screen_brakpoints.module";
+
+.resume {
+  padding: 20px 0 30px 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  &__container {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    opacity: 0;
+    width: 90%;
+    margin: 0 auto;
+    flex-grow: 1;
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+  }
+  &__experiences {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  &__section {
+    width: 100%;
+    h2 {
+      color: $grey-color;
+      text-align: center;
+      padding-bottom: 10px;
+      font-size: 1.8rem;
+      padding-top: 50px;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      transform: translate3d(0, 40px, 0);
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  @media ($md-screen) {
+    .resume {
+      &__experiences {
+        flex-direction: row;
+      }
+      &__section {
+        width: 50%;
+        h2 {
+          padding-top: 30px;
+        }
+      }
+      &__section:nth-child(1) {
+        padding-right: 20px;
+      }
+    }
+  }
+  @media ($lg-screen) {
+    .resume {
+      &__container {
+        width: 80%;
+      }
+    }
+  }
+}

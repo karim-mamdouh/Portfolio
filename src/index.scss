@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./styles/colors.module";
+@import "./styles/themes.module";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+}
+
+body,
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media ($dark-theme) {
+  #root {
+    background-color: $dark-background;
+  }
+}
+@media ($light-theme) {
+  #root {
+    background-color: #fff;
+  }
+}

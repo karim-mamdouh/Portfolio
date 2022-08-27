@@ -1,0 +1,52 @@
+@import "../../styles/themes.module";
+
+$dark-container-color: #171a1b;
+$light-container-color: #24292f;
+
+%circle {
+  width: 10px;
+  height: 10px;
+  border: 1px solid transparent;
+  border-radius: 50% 50%;
+  margin: 0 5px;
+}
+
+.ide-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: white;
+  &__header {
+    padding: 10px;
+    background-color: #1b1f23;
+    display: flex;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+  }
+  &__body {
+    margin: 30px;
+  }
+  .red-circle {
+    @extend %circle;
+    background-color: #d2534f;
+  }
+  .green-circle {
+    @extend %circle;
+    background-color: #25a83d;
+  }
+  .orange-circle {
+    @extend %circle;
+    background-color: #d29f2f;
+  }
+}
+@media ($dark-theme) {
+  .ide-container {
+    background-color: $dark-container-color;
+  }
+}
+@media ($light-theme) {
+  .ide-container {
+    background-color: $light-container-color;
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../styles/colors.module";
+@import "../../styles/themes.module";
+
+.experience {
+  margin: 30px 0;
+  display: flex;
+  &__shape {
+    display: flex;
+    margin-right: 15px;
+    flex-direction: column;
+    .circle {
+      border: 1px solid transparent;
+      border-radius: 50% 50%;
+      width: 12px;
+      margin-bottom: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      min-height: 12px;
+    }
+    .line {
+      border: 1px solid transparent;
+      width: 2px;
+      min-height: 100%;
+      margin: 0 auto 0 auto;
+    }
+  }
+  &__content {
+    flex-grow: 1;
+  }
+  &__title {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  &__subtitle {
+    color: $grey-color;
+    margin-bottom: 5px;
+  }
+  &__body {
+    color: $grey-color;
+    p {
+      padding: 2px 0;
+    }
+  }
+  @media ($dark-theme) {
+    .circle,
+    .line {
+      background-color: $dark-blue-color;
+    }
+  }
+  @media ($light-theme) {
+    .circle,
+    .line {
+      background-color: $light-blue-color;
+    }
+  }
+}
