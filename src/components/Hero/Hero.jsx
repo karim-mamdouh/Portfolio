@@ -6,7 +6,7 @@ import "./Hero.scss";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <header className="hero">
       <div className="hero__text">
         <code className="hero__html">&lt;html&gt;</code>
         <code className="hero__body">&lt;body&gt;</code>
@@ -36,7 +36,7 @@ const Hero = () => {
           </figure>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 

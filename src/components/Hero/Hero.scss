@@ -14,7 +14,6 @@
     code {
       margin-top: 5px;
       margin-bottom: 5px;
-      color: $grey-color;
       font-size: 1rem;
     }
   }
@@ -27,7 +26,6 @@
   }
   &__title,
   &__subtitle {
-    color: white;
     margin-left: 50px;
   }
   &__title {
@@ -47,11 +45,8 @@
     align-items: center;
   }
   &__skill {
-    border: 1px solid $shadow-color;
     border-radius: 50% 50%;
     width: 100px;
-    box-shadow: 0px 0px 10px 20px $shadow-color;
-    background-color: $dark-background;
     img {
       max-width: 100%;
       padding: 10px;
@@ -71,7 +66,7 @@
     align-items: center;
     min-width: 400px;
     min-height: 400px;
-    border: 5px solid white;
+    border: 5px solid;
     border-radius: 50% 50%;
     position: absolute;
     animation: myOrbit 50s linear infinite;
@@ -94,10 +89,40 @@
     &__name {
       color: $dark-blue-color;
     }
+    &__title,
+    &__subtitle {
+      color: white;
+    }
+    code {
+      color: $grey-color;
+    }
+    &__circle {
+      border-color: white;
+    }
+    &__skill {
+      border: 1px solid $shadow-color;
+      box-shadow: 0px 0px 10px 20px $shadow-color;
+      background-color: $dark-background;
+    }
   }
   @media ($light-theme) {
     &__name {
       color: $light-blue-color;
+    }
+    &__title,
+    &__subtitle {
+      color: black;
+    }
+    code {
+      color: $grey-light-color;
+    }
+    &__circle {
+      border-color: $line-color;
+    }
+    &__skill {
+      border: 1px solid white;
+      box-shadow: 0px 0px 10px 20px white;
+      background-color: white;
     }
   }
   @keyframes skillOrbit {

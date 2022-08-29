@@ -1,0 +1,26 @@
+@import "../../styles/colors.module";
+@import "../../styles/screen_brakpoints.module";
+@import "../../styles/themes.module";
+
+.info {
+  width: 100%;
+  p:first-child,
+  p:last-child {
+    color: $grey-color;
+  }
+  p:first-child {
+    padding-bottom: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media ($xl-screen) {
+  .info {
+    width: 45%;
+  }
+}
+@media ($xxl-screen) {
+  .info {
+    width: 40%;
+  }
+}

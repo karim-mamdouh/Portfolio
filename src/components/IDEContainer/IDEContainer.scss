@@ -25,6 +25,9 @@ $light-container-color: #24292f;
     border-radius: 10px 10px 0 0;
   }
   &__body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
     margin: 30px;
   }
   .red-circle {

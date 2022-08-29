@@ -1,0 +1,103 @@
+@import "../../styles/colors.module";
+@import "../../styles/screen_brakpoints.module";
+@import "../../styles/themes.module";
+
+.about {
+  padding: 20px 0 30px 0;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  &__line-container {
+    width: 40%;
+  }
+  &__line1,
+  &__line2 {
+    width: 100%;
+    display: flex;
+  }
+  &__line2 {
+    justify-content: end;
+  }
+  &__summary {
+    opacity: 0;
+    animation: fadein 1s;
+    animation-fill-mode: forwards;
+  }
+  &__line1 {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
+  }
+  &__info {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+  }
+  &__line2 {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1500ms;
+  }
+  &__skills {
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  }
+  @keyframes fadein {
+    to {
+      opacity: 1;
+    }
+  }
+}
+@media ($xl-screen) {
+  .about {
+    &__horiz-line {
+      width: 100%;
+    }
+    &__line1 {
+      width: 10%;
+      .about__line-container {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .about__horiz-line {
+          width: 100%;
+        }
+      }
+    }
+    &__line2 {
+      height: 100px;
+      .about__vert-line {
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        div {
+          flex-grow: 1;
+        }
+      }
+    }
+  }
+}
+@media ($xxl-screen) {
+  .about {
+    &__line1 {
+      width: 20%;
+    }
+    &__line2 {
+      height: 150px;
+    }
+  }
+}

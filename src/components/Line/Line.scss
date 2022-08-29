@@ -1,0 +1,35 @@
+@import "../../styles/colors.module";
+@import "../../styles/screen_brakpoints.module";
+@import "../../styles/themes.module";
+
+.line {
+  display: flex;
+  justify-content: center;
+  div {
+    width: 5px;
+    margin: 10px;
+    height: 100px;
+  }
+}
+@media ($dark-theme) {
+  .line {
+    div {
+      background-color: $dark-blue-color;
+    }
+  }
+}
+@media ($light-theme) {
+  .line {
+    div {
+      background-color: $light-blue-color;
+    }
+  }
+}
+@media ($xl-screen) {
+  .line {
+    div {
+      transform: rotate(0);
+      height: 5px;
+    }
+  }
+}

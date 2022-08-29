@@ -3,6 +3,7 @@ import "./NavBar.scss";
 import logoDark from "../../assets/images/logo_dark.png";
 import logoLight from "../../assets/images/logo_light.png";
 import resume from "../../assets/Karim Mamdouh Mohamed Resume.pdf";
+import { Link, NavLink } from "react-router-dom";
 
 const NavBar = () => {
   let [isDark, setIsDark] = useState(false);
@@ -19,23 +20,34 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar__container">
-        <a>
+        <NavLink to="/">
           <figure>
             <img alt="logo" src={logoDark} className="navbar__logo" />
           </figure>
-        </a>
+        </NavLink>
         <ul className="navbar__links">
           <li className="navbar__link">
-            <a>&lt;Home /&gt;</a>
+            <NavLink to="/" className="navbar__anchor" activeClassName="active">
+              <code>&lt;Home /&gt;</code>
+            </NavLink>
           </li>
           <li className="navbar__link">
-            <a>&lt;About /&gt;</a>
+            <NavLink
+              to="/about"
+              className="navbar__anchor"
+              activeClassName="active"
+            >
+              <code>&lt;About /&gt;</code>
+            </NavLink>
           </li>
           <li className="navbar__link">
-            <a>&lt;Resume /&gt;</a>
-          </li>
-          <li className="navbar__link">
-            <a>&lt;About /&gt;</a>
+            <NavLink
+              to="/resume"
+              className="navbar__anchor"
+              activeClassName="active"
+            >
+              <code>&lt;Resume /&gt;</code>
+            </NavLink>
           </li>
           <li>
             <a

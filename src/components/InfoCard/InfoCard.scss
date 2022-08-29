@@ -1,0 +1,28 @@
+@import "../../styles/colors.module";
+@import "../../styles/screen_brakpoints.module";
+@import "../../styles/themes.module";
+
+.info-card {
+  display: flex;
+  color: $grey-color;
+  margin-bottom: 20px;
+  span {
+    color: white;
+  }
+  &__icon {
+    color: white;
+    margin-right: 10px;
+  }
+  &__text {
+    flex-grow: 1;
+  }
+  a {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: $grey-color;
+  }
+}
+.info-card:last-child {
+  margin-bottom: 0;
+}

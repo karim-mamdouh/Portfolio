@@ -1,0 +1,10 @@
+@import "../../styles/colors.module";
+@import "../../styles/screen_brakpoints.module";
+@import "../../styles/themes.module";
+
+.skill-card {
+  margin: 10px;
+  img {
+    width: 40px;
+  }
+}
