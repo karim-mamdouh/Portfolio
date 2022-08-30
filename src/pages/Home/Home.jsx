@@ -7,9 +7,6 @@ const Home = () => {
   return (
     <section className="home">
       <Hero />
-      <IDEContainer>
-        <p>Hello!</p>
-      </IDEContainer>
     </section>
   );
 };

@@ -1,6 +1,4 @@
-@import "../../styles/colors.module";
 @import "../../styles/screen_brakpoints.module";
-@import "../../styles/themes.module";
 
 .summary {
   width: 100%;
@@ -23,7 +21,7 @@
   }
   p {
     margin-top: 30px;
-    color: $grey-color;
+    color: var(--sec-text-color);
   }
   &__hello {
     margin-top: 30px;

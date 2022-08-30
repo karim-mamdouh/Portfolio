@@ -1,8 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import "./styles/colors.module";
 @import "./styles/themes.module";
+
+html {
+  --background: white;
+  --main-text-color: black;
+  --sec-text-color: #bbbbbe;
+  --highlight-color: #2f89c9;
+  --line-color: #21243a;
+  --container-background: #24292f;
+}
+html[data-theme="dark"] {
+  --background: #26273b;
+  --main-text-color: white;
+  --sec-text-color: #94969b;
+  --highlight-color: #3e7bfa;
+  --line-color: white;
+  --container-background: #171a1b;
+}
 
 * {
   box-sizing: border-box;
@@ -20,15 +33,5 @@ body,
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-@media ($dark-theme) {
-  #root {
-    background-color: $dark-background;
-  }
-}
-@media ($light-theme) {
-  #root {
-    background-color: #fff;
-  }
+  background-color: var(--background);
 }

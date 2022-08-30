@@ -1,4 +1,3 @@
-@import "../../styles/colors.module";
 @import "../../styles/screen_brakpoints.module";
 
 .resume {
@@ -28,7 +27,7 @@
   &__section {
     width: 100%;
     h2 {
-      color: $grey-color;
+      color: var(--sec-text-color);
       text-align: center;
       padding-bottom: 10px;
       font-size: 1.5rem;

@@ -1,6 +1,4 @@
-@import "../../styles/colors.module";
 @import "../../styles/screen_brakpoints.module";
-@import "../../styles/themes.module";
 
 .skills {
   width: 100%;
@@ -23,7 +21,7 @@
     text-align: center;
   }
   p {
-    color: $grey-color;
+    color: var(--sec-text-color);
     margin-bottom: 10px;
   }
   @media ($xl-screen) {

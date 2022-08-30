@@ -1,6 +1,4 @@
-@import "../../styles/colors.module";
 @import "../../styles/screen_brakpoints.module";
-@import "../../styles/themes.module";
 
 .line {
   display: flex;
@@ -9,22 +7,10 @@
     width: 5px;
     margin: 10px;
     height: 100px;
+    background-color: var(--highlight-color);
   }
 }
-@media ($dark-theme) {
-  .line {
-    div {
-      background-color: $dark-blue-color;
-    }
-  }
-}
-@media ($light-theme) {
-  .line {
-    div {
-      background-color: $light-blue-color;
-    }
-  }
-}
+
 @media ($xl-screen) {
   .line {
     div {

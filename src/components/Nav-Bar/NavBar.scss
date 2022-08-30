@@ -1,5 +1,3 @@
-@import "../../styles/colors.module";
-@import "../../styles/themes.module";
 @import "../../styles/screen_brakpoints.module";
 
 .navbar {
@@ -25,10 +23,11 @@
     font-size: 1rem;
   }
   &__anchor {
-    color: $grey-color;
+    color: var(--sec-text-color);
     text-decoration: none;
   }
   &__download-btn {
+    background-color: var(--highlight-color);
     padding: 15px 30px;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -43,6 +42,10 @@
   &__logo {
     max-width: 50px;
   }
+  &__anchor:hover,
+  .active {
+    color: var(--main-text-color);
+  }
   .active:after {
     content: "";
     width: 40px;
@@ -52,36 +55,9 @@
     left: 20px;
     border: 1px solid transparent;
     border-radius: 10px;
+    background-color: var(--highlight-color);
   }
 
-  @media ($dark-theme) {
-    &__download-btn {
-      background-color: $dark-blue-color;
-    }
-    &__link {
-      .navbar__anchor:hover,
-      .active {
-        color: white;
-      }
-      .active:after {
-        background-color: $dark-blue-color;
-      }
-    }
-  }
-  @media ($light-theme) {
-    &__download-btn {
-      background-color: $light-blue-color;
-    }
-    &__link {
-      .navbar__anchor:hover,
-      .active {
-        color: black;
-      }
-      .active:after {
-        background-color: $light-blue-color;
-      }
-    }
-  }
   @media ($lg-screen) {
     .navbar__container {
       width: 80%;

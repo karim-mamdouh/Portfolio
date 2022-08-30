@@ -1,8 +1,3 @@
-@import "../../styles/themes.module";
-
-$dark-container-color: #171a1b;
-$light-container-color: #24292f;
-
 %circle {
   width: 10px;
   height: 10px;
@@ -12,6 +7,7 @@ $light-container-color: #24292f;
 }
 
 .ide-container {
+  background-color: var(--container-background);
   display: flex;
   flex-direction: column;
   border: 1px solid transparent;
@@ -41,15 +37,5 @@ $light-container-color: #24292f;
   .orange-circle {
     @extend %circle;
     background-color: #d29f2f;
-  }
-}
-@media ($dark-theme) {
-  .ide-container {
-    background-color: $dark-container-color;
-  }
-}
-@media ($light-theme) {
-  .ide-container {
-    background-color: $light-container-color;
   }
 }

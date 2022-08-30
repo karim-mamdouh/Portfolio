@@ -1,12 +1,10 @@
-@import "../../styles/colors.module";
 @import "../../styles/screen_brakpoints.module";
-@import "../../styles/themes.module";
 
 .info {
   width: 100%;
   p:first-child,
   p:last-child {
-    color: $grey-color;
+    color: var(--sec-text-color);
   }
   p:first-child {
     padding-bottom: 30px;
