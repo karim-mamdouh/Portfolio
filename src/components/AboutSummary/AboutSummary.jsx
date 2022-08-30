@@ -1,16 +1,21 @@
 import React from "react";
-import IDEContainer from "../IDEContainer/IDEContainer";
+//Scss styling file
 import "./AboutSummary.scss";
+//Components
+import IDEContainer from "../IDEContainer/IDEContainer";
 
 const AboutSummary = (props) => {
+  //classes variable to pass classes externally
   const classes = "summary " + (props.className ? props.className : "");
   return (
     <IDEContainer className={classes}>
       <div className="summary__container">
         <p className="summary__title">&lt;About Me /&gt;</p>
+        {/* Welcome message */}
         <div className="summary__hello">
           <h1>Hello World ^_^</h1>
         </div>
+        {/* About me */}
         <p>
           I'm an enthusiastic and detail-oriented Frontend Software Engineer
           with experience in troubleshooting, logical thinking and customer

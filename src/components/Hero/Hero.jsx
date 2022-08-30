@@ -1,12 +1,15 @@
 import React from "react";
+//Scss styling file
+import "./Hero.scss";
+//Images
 import angular from "../../assets/images/skills/angular.png";
 import react from "../../assets/images/skills/reactjs.png";
 import profile from "../../assets/images/profile.jpg";
-import "./Hero.scss";
 
 const Hero = () => {
   return (
     <header className="hero">
+      {/* Welcome text */}
       <div className="hero__text">
         <code className="hero__html">&lt;html&gt;</code>
         <code className="hero__body">&lt;body&gt;</code>
@@ -23,14 +26,18 @@ const Hero = () => {
         <code className="hero__body">&lt;/body&gt;</code>
         <code className="hero__html">&lt;/html&gt;</code>
       </div>
+      {/* Rotating circle section */}
       <div className="hero__shape">
+        {/* Personal image */}
         <figure className="hero__profile">
           <img alt="profile" src={profile} />
         </figure>
         <div className="hero__circle">
+          {/* React skill */}
           <figure className="hero__skill react">
             <img alt="reactjs" src={react} />
           </figure>
+          {/* Angular skill */}
           <figure className="hero__skill angular">
             <img alt="angular" src={angular} />
           </figure>
