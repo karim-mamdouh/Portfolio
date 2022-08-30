@@ -3,19 +3,39 @@
 .navbar {
   background-color: transparent;
   padding: 20px 0;
-
+  position: relative;
+  &__collapse {
+    background-color: transparent;
+    color: var(--main-text-color);
+    padding: 7px 15px;
+    font-size: 2rem;
+    border: 3px solid transparent;
+    display: block;
+  }
+  &__collapse:hover {
+    cursor: pointer;
+  }
+  &__collapse:focus {
+    border: 3px solid var(--main-text-color);
+    border-radius: 10px;
+  }
   &__container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
   }
   &__links {
+    margin-top: 10px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     list-style: none;
   }
   &__link {
     display: flex;
+    width: fit-content;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -32,15 +52,24 @@
     border: 1px solid transparent;
     border-radius: 5px;
     color: white;
+    margin-top: 10px;
   }
   &__download-btn:hover {
     cursor: pointer;
   }
   &__download {
-    margin-left: 20px;
+    margin-left: 0;
   }
   &__logo {
     max-width: 50px;
+  }
+  &__link:nth-child(1) {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+  }
+  li:not(:first-child) {
+    display: none;
   }
   &__anchor:hover,
   .active {
@@ -51,13 +80,62 @@
     width: 40px;
     height: 3px;
     position: absolute;
-    bottom: 10px;
+    bottom: 2px;
     left: 20px;
     border: 1px solid transparent;
     border-radius: 10px;
     background-color: var(--highlight-color);
   }
-
+  #show-collapse {
+    animation: showCollapse 1s;
+    animation-fill-mode: forwards;
+  }
+  #hide-collapse {
+    animation: hideCollapse 1s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes hideCollapse {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  @keyframes showCollapse {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @media ($md-screen) {
+    &__collapse {
+      display: none;
+    }
+    &__links {
+      margin-top: 0;
+      flex-direction: row;
+      width: auto;
+      display: flex;
+    }
+    &__download {
+      margin-left: 20px;
+    }
+    &__download-btn {
+      margin-top: 0;
+    }
+    &__link:nth-child(1) {
+      position: static;
+    }
+    .active:after {
+      bottom: 10px;
+    }
+    li:not(:first-child) {
+      display: flex;
+    }
+  }
   @media ($lg-screen) {
     .navbar__container {
       width: 80%;
