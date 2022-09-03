@@ -7,9 +7,26 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  &__projects-path {
+    margin-bottom: 30px;
+    display: none !important;
+  }
+  &__projects-path-vert {
+    display: flex !important;
+    margin: 30px 0;
+  }
+  &__contact-path {
+    margin: 30px 0;
+  }
 }
 @media ($lg-screen) {
   .home {
     width: 80%;
+    &__projects-path {
+      display: flex !important;
+    }
+    &__projects-path-vert {
+      display: none !important;
+    }
   }
 }

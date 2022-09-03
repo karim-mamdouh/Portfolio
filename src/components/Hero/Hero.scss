@@ -33,7 +33,7 @@
     color: var(--main-text-color);
   }
   &__title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   &__subtitle {
     font-size: 1.5rem;
@@ -42,7 +42,7 @@
     order: 1;
     position: relative;
     margin: 1rem 0;
-    min-height: 75vh;
+    min-height: 50vh;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@
   }
   &__skill {
     border-radius: 50% 50%;
-    width: 100px;
+    width: 60px;
     img {
       max-width: 100%;
       padding: 10px;
@@ -62,17 +62,22 @@
     animation: skillOrbit 50s linear infinite;
   }
   .angular {
-    top: -10%;
+    bottom: 15%;
+    right: -3%;
   }
   .react {
-    bottom: -10%;
+    bottom: 15%;
+    left: -3%;
+  }
+  .js {
+    top: -10%;
   }
   &__circle {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 400px;
-    min-height: 400px;
+    min-width: 270px;
+    min-height: 270px;
     border: 5px solid;
     border-radius: 50% 50%;
     border-color: var(--line-color);
@@ -107,6 +112,20 @@
     }
   }
 }
+@media ($sm-screen) {
+  .hero {
+    &__circle {
+      min-width: 350px;
+      min-height: 350px;
+    }
+    &__shape {
+      min-height: 75vh;
+    }
+    &__skill {
+      width: 70px;
+    }
+  }
+}
 @media ($md-screen) {
   .hero {
     flex-direction: row;
@@ -125,6 +144,13 @@
     }
     &__skill {
       width: 80px;
+    }
+  }
+}
+@media ($lg-screen) {
+  .hero {
+    &__title {
+      font-size: 4rem;
     }
   }
 }

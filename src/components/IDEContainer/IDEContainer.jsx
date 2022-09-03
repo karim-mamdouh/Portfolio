@@ -4,7 +4,7 @@ import "./IDEContainer.scss";
 
 const IDEContainer = (props) => {
   //classes variable to pass classes externally
-  const classes = "ide-container " + props.className;
+  const classes = "ide-container " + (props.className ? props.className : "");
   return (
     <div className={classes}>
       <div className="ide-container__header">

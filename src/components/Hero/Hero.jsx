@@ -4,6 +4,7 @@ import "./Hero.scss";
 //Images
 import angular from "../../assets/images/skills/angular.png";
 import react from "../../assets/images/skills/reactjs.png";
+import js from "../../assets/images/skills/javascript.png";
 import profile from "../../assets/images/profile.jpg";
 
 const Hero = () => {
@@ -40,6 +41,10 @@ const Hero = () => {
           {/* Angular skill */}
           <figure className="hero__skill angular">
             <img alt="angular" src={angular} />
+          </figure>
+          {/* Javascript skill */}
+          <figure className="hero__skill js">
+            <img alt="js" src={js} />
           </figure>
         </div>
       </div>

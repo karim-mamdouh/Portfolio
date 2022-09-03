@@ -14,8 +14,8 @@
     margin: auto;
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     text-align: center;
-    white-space: nowrap;
     overflow: hidden;
+    line-height: 2;
     animation: typewriter 4s steps(13) 1s 1 normal both,
       blinkTextCursor 500ms steps(13) infinite normal;
   }
@@ -49,6 +49,13 @@
     }
     to {
       border-right-color: transparent;
+    }
+  }
+}
+@media ($sm-screen) {
+  .summary {
+    h1 {
+      white-space: nowrap;
     }
   }
 }

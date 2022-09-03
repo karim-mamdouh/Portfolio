@@ -1,0 +1,62 @@
+@import "../../styles/screen_brakpoints.module";
+
+.project {
+  display: flex;
+  flex-direction: column;
+  &__img-container {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 20px;
+    img {
+      max-width: 100%;
+      border: 1px solid transparent;
+      border-radius: 20px;
+      padding: 5px;
+    }
+    img:hover {
+      transform: scale(1.05);
+      transition: transform 0.5s;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      padding: 10px 0;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    p {
+      margin: 10px 0;
+    }
+    a {
+      color: var(--sec-text-color);
+      padding-top: 2px;
+    }
+    a:hover {
+      color: white;
+    }
+  }
+  &__tech-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__tech {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+    a {
+      margin: 5px 0;
+    }
+  }
+  .tech-img {
+    width: 30px;
+    margin: 0 10px;
+  }
+  @media ($md-screen) {
+    &__img-container {
+      width: 70%;
+    }
+  }
+}

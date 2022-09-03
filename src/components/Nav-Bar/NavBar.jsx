@@ -81,7 +81,13 @@ const NavBar = () => {
           </li>
           {/* Home link */}
           <li className="navbar__link">
-            <NavLink to="/" className="navbar__anchor" activeClassName="active">
+            <NavLink
+              to="/"
+              className={
+                ((navData) => (navData.isActive ? "active" : "none")) +
+                " navbar__anchor"
+              }
+            >
               <code>&lt;Home /&gt;</code>
             </NavLink>
           </li>
@@ -89,8 +95,10 @@ const NavBar = () => {
           <li className="navbar__link">
             <NavLink
               to="/about"
-              className="navbar__anchor"
-              activeClassName="active"
+              className={
+                ((navData) => (navData.isActive ? "active" : "none")) +
+                " navbar__anchor"
+              }
             >
               <code>&lt;About /&gt;</code>
             </NavLink>
@@ -99,8 +107,10 @@ const NavBar = () => {
           <li className="navbar__link">
             <NavLink
               to="/resume"
-              className="navbar__anchor"
-              activeClassName="active"
+              className={
+                ((navData) => (navData.isActive ? "active" : "none")) +
+                " navbar__anchor"
+              }
             >
               <code>&lt;Resume /&gt;</code>
             </NavLink>

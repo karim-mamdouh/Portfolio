@@ -1,3 +1,5 @@
+//React
+import React from "react";
 //Scss styling file
 import "./App.scss";
 //Routing
@@ -7,8 +9,9 @@ import NavBar from "./components/Nav-Bar/NavBar";
 import Home from "./pages/Home/Home";
 import Resume from "./pages/Resume/Resume";
 import About from "./pages/About/About";
+import Footer from "./components/Footer/Footer";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <NavBar />
@@ -22,8 +25,9 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
-}
+};
 
 export default App;
