@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bc3df302.css",
+    "main.js": "/Portfolio/static/js/main.4adefa5d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Yummy Taste.png": "/Portfolio/static/media/Yummy Taste.6f85277ce3d37dedd936.png",
+    "static/media/Cards Memory Game.png": "/Portfolio/static/media/Cards Memory Game.9ad6b76619ce2aa1fcf6.png",
+    "static/media/NOICELAND.png": "/Portfolio/static/media/NOICELAND.36b982e4518f364d8e5d.png",
+    "static/media/Personal Landing Page.png": "/Portfolio/static/media/Personal Landing Page.eae86788dcee1e3201be.png",
+    "static/media/Happy Paws.png": "/Portfolio/static/media/Happy Paws.054bc7979042e9cdc9ef.png",
+    "static/media/Pomodoro Timer.png": "/Portfolio/static/media/Pomodoro Timer.8f07a2468d65488f502a.png",
+    "static/media/To-Do List.png": "/Portfolio/static/media/To-Do List.a3e31849bfc51daca822.png",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.d09599a0e10f07165d7b.jpg",
+    "static/media/Karim Mamdouh Mohamed Resume.pdf": "/Portfolio/static/media/Karim Mamdouh Mohamed Resume.d918f16c2b34d5a78cdb.pdf",
+    "static/media/primeng.png": "/Portfolio/static/media/primeng.51d9a4aab4ef52be6e8d.png",
+    "static/media/logo_light.png": "/Portfolio/static/media/logo_light.4efa68ec9962760723e0.png",
+    "static/media/logo_dark.png": "/Portfolio/static/media/logo_dark.4dfaeff0b02fce15e927.png",
+    "static/media/csharp.png": "/Portfolio/static/media/csharp.91be752d7e10756c2c65.png",
+    "static/media/angular.png": "/Portfolio/static/media/angular.2dd1886de74ad756c252.png",
+    "static/media/sass.png": "/Portfolio/static/media/sass.6119327524fc3e553a65.png",
+    "static/media/css3.png": "/Portfolio/static/media/css3.83288fa6be7130ba03b9.png",
+    "static/media/reactjs.png": "/Portfolio/static/media/reactjs.1ab4cbaba7aaf3b15d3a.png",
+    "static/media/html5.png": "/Portfolio/static/media/html5.d8e7607b89bc6b808368.png",
+    "static/media/firebase.png": "/Portfolio/static/media/firebase.41444129d078f9671c2c.png",
+    "static/media/pwa.png": "/Portfolio/static/media/pwa.95c0559e693cab98d926.png",
+    "static/media/bootstrap.png": "/Portfolio/static/media/bootstrap.afe14cca5879a886cbfb.png",
+    "static/media/typescript.png": "/Portfolio/static/media/typescript.ad24192e62d354f1c34c.png",
+    "static/media/javascript.png": "/Portfolio/static/media/javascript.fe9c5be5e12962c9bad8.png",
+    "static/media/ngrx.svg": "/Portfolio/static/media/ngrx.133ec9da36420bd0f2efcae47fe32aba.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.5acb5af708b02d221143cc263b72bedb.svg",
+    "main.bc3df302.css.map": "/Portfolio/static/css/main.bc3df302.css.map",
+    "main.4adefa5d.js.map": "/Portfolio/static/js/main.4adefa5d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc3df302.css",
+    "static/js/main.4adefa5d.js"
+  ]
+}
