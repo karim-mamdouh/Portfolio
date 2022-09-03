@@ -3,7 +3,7 @@ import React from "react";
 //Scss styling file
 import "./App.scss";
 //Routing
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 //Components
 import NavBar from "./components/Nav-Bar/NavBar";
 import Home from "./pages/Home/Home";

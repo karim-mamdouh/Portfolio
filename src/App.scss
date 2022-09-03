@@ -2,6 +2,7 @@ main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .test {
   width: 50px;

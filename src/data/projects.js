@@ -98,7 +98,7 @@ export const projects = [
   ),
   projectGenerator(
     ++idCounter,
-    "Memory Card Game",
+    "Card Game",
     "Memory card responsive game using native technologies",
     cards,
     "https://karim-mamdouh.github.io/Playing-Cards/",

@@ -1,13 +1,19 @@
 //React
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 //Scss styling file
 import "./ProjectCard.scss";
+//Icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectCard = (props) => {
+  let classes =
+    (props.animationLeft ? "animation-left " : "") +
+    (props.animationRight ? "animation-right " : "") +
+    "project";
+
   return (
-    <div className="project">
+    <div className={classes}>
       <figure className="project__img-container">
         <a href={props.project.link} target="_blank" rel="noreferrer">
           <img src={props.project.image} alt={props.project.name} />
