@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.029d2636.css",
-    "main.js": "/Portfolio/static/js/main.dcb0f95b.js",
+    "main.css": "/Portfolio/static/css/main.83249778.css",
+    "main.js": "/Portfolio/static/js/main.a27eeeac.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Yummy Taste.png": "/Portfolio/static/media/Yummy Taste.6f85277ce3d37dedd936.png",
     "static/media/Cards Memory Game.png": "/Portfolio/static/media/Cards Memory Game.9ad6b76619ce2aa1fcf6.png",
@@ -29,12 +29,12 @@
     "static/media/ngrx.svg": "/Portfolio/static/media/ngrx.133ec9da36420bd0f2efcae47fe32aba.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.5acb5af708b02d221143cc263b72bedb.svg",
-    "main.029d2636.css.map": "/Portfolio/static/css/main.029d2636.css.map",
-    "main.dcb0f95b.js.map": "/Portfolio/static/js/main.dcb0f95b.js.map",
+    "main.83249778.css.map": "/Portfolio/static/css/main.83249778.css.map",
+    "main.a27eeeac.js.map": "/Portfolio/static/js/main.a27eeeac.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.029d2636.css",
-    "static/js/main.dcb0f95b.js"
+    "static/css/main.83249778.css",
+    "static/js/main.a27eeeac.js"
   ]
 }
