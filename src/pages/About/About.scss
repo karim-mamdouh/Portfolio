@@ -1,7 +1,7 @@
 @import "../../styles/screen_brakpoints.module";
 
 .about {
-  padding: 20px 0 100px 0;
+  padding: 20px 0;
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -16,6 +16,7 @@
   }
   &__line2 {
     justify-content: end;
+    -webkit-justify-content: flex-end;
   }
   &__summary {
     opacity: 0;

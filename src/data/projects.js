@@ -42,6 +42,7 @@ const projectGenerator = (
     repo: repo,
   };
 };
+//Factory function for technology object
 const techGenerator = (image, name, link) => {
   return {
     image: image,

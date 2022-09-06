@@ -12,3 +12,13 @@ main {
   bottom: 0;
   right: 0;
 }
+.loading-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  h1 {
+    font-size: 5rem;
+    color: var(--main-text-color);
+  }
+}

@@ -14,7 +14,7 @@ import leet from "../../assets/images/leetcode.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
       <p>Find me in:</p>
       <div className=" footer__container">
         <a
@@ -53,7 +53,7 @@ const Footer = () => {
           <img src={leet} alt="leetcode-logo" />
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -7,7 +7,7 @@ const Path = (props) => {
   //classes variable to pass classes externally
   let classes = "path " + (props.className ? props.className : "");
   //If startLeft transform class is added
-  if (props.startLeft) classes += "transform";
+  if (props.startLeft) classes += " transform";
 
   return (
     <div className={classes}>
@@ -49,7 +49,7 @@ const Path = (props) => {
           </div>
           <div className="path__circle-container">
             <div className="path__circle">
-              <h2>&lt;{props.title} /&gt;</h2>
+              <h2 className="transform">&lt;{props.title} /&gt;</h2>
             </div>
           </div>
           <div className="path__right-container">

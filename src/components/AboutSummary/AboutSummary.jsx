@@ -14,11 +14,11 @@ const AboutSummary = (props) => {
         {/* Welcome message */}
         <div className="summary__hello">
           <h1>Hello World ^_^</h1>
-          <p className="hello-small-screen">
+          {/* <p className="hello-small-screen">
             <span>Hello</span>
             <span>World</span>
             <span>^_^</span>
-          </p>
+          </p> */}
         </div>
         {/* About me */}
         <p>

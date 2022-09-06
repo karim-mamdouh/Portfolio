@@ -3,9 +3,9 @@
 
 .footer {
   width: 100%;
-  position: fixed;
+  position: sticky;
   bottom: 0;
-  right: 0;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   color: var(--sec-text-color);
