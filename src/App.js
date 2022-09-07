@@ -19,6 +19,7 @@ const App = () => {
       <main>
         <Suspense
           fallback={
+            //Message showed on component loading
             <div className="loading-msg">
               <h1>Loading...</h1>
             </div>

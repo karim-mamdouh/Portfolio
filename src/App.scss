@@ -1,3 +1,5 @@
+@import "./styles/screen_brakpoints.module";
+
 main {
   flex-grow: 1;
   display: flex;
@@ -18,7 +20,12 @@ main {
   align-items: center;
   flex-grow: 1;
   h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     color: var(--main-text-color);
+  }
+  @media ($md-screen) {
+    h1 {
+      font-size: 5rem;
+    }
   }
 }

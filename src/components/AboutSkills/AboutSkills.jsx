@@ -1,3 +1,4 @@
+//React
 import React from "react";
 //Scss styling file
 import "./AboutSkills.scss";
@@ -12,7 +13,9 @@ const AboutSkills = (props) => {
   const classes = "skills " + (props.className ? props.className : "");
   return (
     <IDEContainer className={classes}>
+      {/* Title */}
       <p className="skills__header">&lt;Skills /&gt;</p>
+      {/* FrameWorks section */}
       <div className="skills__content">
         <div className="skills__container">
           <p className="skills__title">&lt;FrameWorks /&gt;</p>
@@ -22,6 +25,7 @@ const AboutSkills = (props) => {
             ))}
           </div>
         </div>
+        {/* Languages section */}
         <div className="skills__container">
           <p className="skills__title">&lt;Languages /&gt;</p>
           <div className="skills__set">
@@ -30,6 +34,7 @@ const AboutSkills = (props) => {
             ))}
           </div>
         </div>
+        {/* Tools section */}
         <div className="skills__container">
           <p className="skills__title">&lt;Tools /&gt;</p>
           <div className="skills__set">

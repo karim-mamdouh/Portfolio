@@ -6,7 +6,7 @@ import "./Home.scss";
 import Hero from "../../components/Hero/Hero";
 import Projects from "../../components/Projects/Projects";
 import Path from "../../components/Path/Path";
-import ContactForm from "../../components/ContactForm/ContactForm";
+import ContactMe from "../../components/ContactMe/ContactMe";
 
 const Home = () => {
   return (
@@ -38,7 +38,8 @@ const Home = () => {
         straight={true}
         className="home__projects-path-vert"
       />
-      <ContactForm />
+      {/* Contact me section */}
+      <ContactMe />
     </section>
   );
 };

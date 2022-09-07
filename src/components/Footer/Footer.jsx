@@ -15,8 +15,10 @@ import leet from "../../assets/images/leetcode.svg";
 const Footer = () => {
   return (
     <footer className="footer">
+      {/* Title */}
       <p>Find me in:</p>
       <div className=" footer__container">
+        {/* Linkedin */}
         <a
           href="https://www.linkedin.com/in/karim-mamdouh-084b25141/"
           target="_blank"
@@ -24,6 +26,7 @@ const Footer = () => {
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
+        {/* Github */}
         <a
           href="https://github.com/karim-mamdouh"
           target="_blank"
@@ -31,6 +34,7 @@ const Footer = () => {
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
+        {/* Hackerrank */}
         <a
           href="https://www.hackerrank.com/karim_mamdouh_51"
           target="_blank"
@@ -38,6 +42,7 @@ const Footer = () => {
         >
           <FontAwesomeIcon icon={faHackerrank} />
         </a>
+        {/* Freecodecamp */}
         <a
           href="https://www.freecodecamp.org/karim-mamdouh"
           target="_blank"
@@ -45,6 +50,7 @@ const Footer = () => {
         >
           <FontAwesomeIcon icon={faFreeCodeCamp} />
         </a>
+        {/* Leetcode */}
         <a
           href="https://leetcode.com/user0171C/"
           target="_blank"

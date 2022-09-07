@@ -1,0 +1,22 @@
+.form-success {
+  min-height: 500px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__success,
+  &__fail {
+    font-size: 8rem;
+    margin-bottom: 50px;
+  }
+  &__fail {
+    color: #d2534f;
+  }
+  &__success {
+    color: #25a73d;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
