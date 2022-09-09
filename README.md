@@ -10,6 +10,7 @@ If you have any project in mind please don't hesitate sending your question or r
 - Mobile first design 📱
 - Responsive design ↔
 - Contact me form 📎
+- Form validations ✔
 - Simple CSS animations 💥
 - My projects carousel
 
