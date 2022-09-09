@@ -1,7 +1,8 @@
-# Karim Mamdouh Portfolio 👨‍💻
+# My Portfolio 👨‍💻
 
-Welcome to my portfolio website; here you can see all my projects and my personal/contact information
-If you have any project in mind please don't hesitate sending your question or request & kindly fill the form, I will reply as soon as I receive your submitted request
+<p>Welcome to my portfolio website</p>
+<p>Here you can see all my projects and my personal/contact information,
+If you have any project in mind please don't hesitate sending your question or request & kindly fill the form, I will reply as soon as I receive your submitted request</p>
 
 ## Features
 
@@ -23,18 +24,14 @@ If you have any project in mind please don't hesitate sending your question or r
 <a href="https://react-hook-form.com/">
 <img src="https://img.shields.io/badge/Made%20with-React Hook Form-1f425f.svg"/>
 </a>
-<a href="https://react-hook-form.com/">
-<img src="https://img.shields.io/badge/Made%20with-React Hook Form-1f425f.svg"/>
-</a>
 <a href="https://www.npmjs.com/package/react-router-dom">
 <img src="https://img.shields.io/badge/Made%20with-React Router Dom-1f425f.svg"/>
 </a>
 <a href="https://www.npmjs.com/package/axios">
 <img src="https://img.shields.io/badge/Made%20with-Axios-1f425f.svg"/>
 </a>
-</a>
 <a href="https://fontawesome.com/">
-<img src="https://img.shields.io/badge/Made%20with-font awesome-1f425f.svg"/>
+<img src="https://img.shields.io/badge/Made%20with-Font Awesome-1f425f.svg"/>
 </a>
 
 ## Technologies Used
