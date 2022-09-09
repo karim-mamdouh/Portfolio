@@ -56,11 +56,11 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="navbar__container">
         {/* Logo */}
-        <div>
+        <NavLink to="/">
           <figure>
             <img alt="logo" src={logoDark} className="navbar__logo" id="logo" />
           </figure>
-        </div>
+        </NavLink>
         {/* Collapse button (visible in small screens only) */}
         <button
           className="navbar__collapse"
@@ -116,7 +116,7 @@ const NavBar = () => {
             </NavLink>
           </li>
           {/* Download my CV button */}
-          <li>
+          <li className="navbar__link">
             <a
               href={resume}
               download="Karim Mamdouh Mohamed Resume.pdf"

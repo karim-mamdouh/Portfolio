@@ -25,6 +25,9 @@
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+    & > .active::after {
+      display: none;
+    }
   }
   &__links {
     margin-top: 10px;
@@ -41,6 +44,9 @@
     position: relative;
     padding: 10px;
     font-size: 1rem;
+  }
+  &__link:last-child {
+    padding: 0;
   }
   &__anchor {
     color: var(--sec-text-color);
@@ -75,6 +81,7 @@
   .active {
     color: var(--main-text-color);
   }
+
   .active:after {
     content: "";
     width: 40px;
