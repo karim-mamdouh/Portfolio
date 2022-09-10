@@ -41,13 +41,11 @@ const projectGenerator = (
   technologies,
 });
 //Factory function for technology object
-const techGenerator = (image, name, link) => {
-  return {
-    image: image,
-    name: name,
-    link: link,
-  };
-};
+const techGenerator = (image, name, link) => ({
+  image,
+  name,
+  link,
+});
 //Array of projects
 export const projects = [
   projectGenerator(
