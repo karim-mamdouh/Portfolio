@@ -13,13 +13,11 @@ import git from "../assets/images/skills/git.png";
 
 let idCounter = 0;
 //Factory function for skill object
-const skillGenerator = (name, image) => {
-  return {
-    id: idCounter++,
-    name: name,
-    image: image,
-  };
-};
+const skillGenerator = (name, image) => ({
+  id: idCounter++,
+  name,
+  image,
+});
 //Array of skills
 export const skills = {
   frameworks: [

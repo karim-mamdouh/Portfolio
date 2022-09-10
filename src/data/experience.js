@@ -1,14 +1,12 @@
 let idCount = 0;
 //Experience factory function
-const experienceGenerator = (date, title, company, details) => {
-  return {
-    id: idCount++,
-    title: title,
-    description: details,
-    date: date,
-    company: company,
-  };
-};
+const experienceGenerator = (date, title, company, details) => ({
+  id: idCount++,
+  date,
+  title,
+  company,
+  details,
+});
 //Array of experience and education
 export const experience = {
   work: [

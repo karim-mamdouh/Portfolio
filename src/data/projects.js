@@ -31,17 +31,15 @@ const projectGenerator = (
   link,
   repo,
   technologies
-) => {
-  return {
-    id: id,
-    name: name,
-    description: description,
-    technologies: technologies,
-    image: image,
-    link: link,
-    repo: repo,
-  };
-};
+) => ({
+  id,
+  name,
+  description,
+  image,
+  link,
+  repo,
+  technologies,
+});
 //Factory function for technology object
 const techGenerator = (image, name, link) => {
   return {

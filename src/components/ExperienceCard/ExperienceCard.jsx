@@ -21,8 +21,8 @@ const ExperienceCard = (props) => {
         <p className="experience__subtitle">{props.experience.company}</p>
         {/* Description block */}
         <div className="experience__body">
-          {props.experience.description &&
-            props.experience.description.map((element, index) => (
+          {props.experience.details &&
+            props.experience.details.map((element, index) => (
               <p key={index}>{element}</p>
             ))}
         </div>
