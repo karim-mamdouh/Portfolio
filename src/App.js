@@ -1,5 +1,5 @@
 //React
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useState } from "react";
 //Scss styling file
 import "./App.scss";
 //Routing
@@ -13,9 +13,14 @@ const About = lazy(() => import("./pages/About/About"));
 const Resume = lazy(() => import("./pages/Resume/Resume"));
 
 const App = () => {
+  const [themeState, setThemeState] = useState(true); //Flag to hold status of dark/light mode
+  //Function to be used by navbar to notify parent that theme has changed
+  const updateHeroImage = () => {
+    setThemeState((state) => !state);
+  };
   return (
     <Router>
-      <NavBar />
+      <NavBar updateHero={updateHeroImage} />
       <main>
         <Suspense
           fallback={
@@ -27,7 +32,7 @@ const App = () => {
         >
           <Routes>
             {/* Home route */}
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home isDark={themeState} />} />
             {/* About route */}
             <Route path="/about" element={<About />} />
             {/* Resume route */}

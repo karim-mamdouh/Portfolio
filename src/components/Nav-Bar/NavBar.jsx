@@ -1,5 +1,6 @@
 //React
 import React, { useState } from "react";
+import { useRef } from "react";
 import { NavLink } from "react-router-dom";
 //Scss styling file
 import "./NavBar.scss";
@@ -13,7 +14,8 @@ import DarkModeToggle from "react-dark-mode-toggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const NavBar = () => {
+const NavBar = (props) => {
+  const ref = useRef(); //Used to change logo image on switching dark/ligt modes
   const [themeState, setThemeState] = useState(true); //Flag to hold status of dark/light mode
   const [showCollapse, setShowCollapse] = useState(false); //Flag to hold status of collapsed menu in small screens
   //Function called when dark toggle is clicked
@@ -21,13 +23,14 @@ const NavBar = () => {
     //Changes current theme to the opposite one by setting the "data-theme" attribute o html tag
     if (themeState) {
       document.documentElement.setAttribute("data-theme", "light");
-      document.getElementById("logo").src = logoLight;
+      ref.current.src = logoLight;
       setThemeState(false);
     } else {
       document.documentElement.setAttribute("data-theme", "dark");
-      document.getElementById("logo").src = logoDark;
+      ref.current.src = logoDark;
       setThemeState(true);
     }
+    props.updateHero();
   };
   //Function called when collapse button is clicked to show/hide collapse menu
   const alterCollapse = () => {
@@ -58,7 +61,13 @@ const NavBar = () => {
         {/* Logo */}
         <NavLink to="/">
           <figure>
-            <img alt="logo" src={logoDark} className="navbar__logo" id="logo" />
+            <img
+              alt="logo"
+              src={logoDark}
+              className="navbar__logo"
+              id="logo"
+              ref={ref}
+            />
           </figure>
         </NavLink>
         {/* Collapse button (visible in small screens only) */}

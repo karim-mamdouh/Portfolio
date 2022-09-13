@@ -6,9 +6,10 @@ import "./Hero.scss";
 import angular from "../../assets/images/skills/angular.png";
 import react from "../../assets/images/skills/reactjs.png";
 import js from "../../assets/images/skills/javascript.png";
-import profile from "../../assets/images/profile.png";
+import profileLight from "../../assets/images/profile_light.png";
+import profileDark from "../../assets/images/profile_dark.png";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <header className="hero">
       {/* Welcome text */}
@@ -32,7 +33,11 @@ const Hero = () => {
       <div className="hero__shape">
         {/* Personal image */}
         <figure className="hero__profile">
-          <img alt="profile" src={profile} />
+          <img
+            alt="profile"
+            src={props.isDark ? profileDark : profileLight}
+            id="portfolio"
+          />
         </figure>
         <div className="hero__circle">
           {/* React skill */}
