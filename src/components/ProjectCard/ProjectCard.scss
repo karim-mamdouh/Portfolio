@@ -3,6 +3,9 @@
 .project {
   display: flex;
   flex-direction: column;
+  a {
+    text-decoration: none;
+  }
   &__img-container {
     margin: 0 auto;
     width: 100%;

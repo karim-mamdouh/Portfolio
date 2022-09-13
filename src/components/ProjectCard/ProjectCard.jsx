@@ -24,7 +24,9 @@ const ProjectCard = (props) => {
       <div className="project__text">
         {/* Project title */}
         <h4>
-          &lt;{props.project.name} /&gt; &nbsp;
+          <a href={props.project.link} target="_blank" rel="noreferrer">
+            &lt;{props.project.name} /&gt; &nbsp;
+          </a>
           <a href={props.project.repo} target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} />
           </a>

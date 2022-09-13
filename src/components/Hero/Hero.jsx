@@ -6,7 +6,7 @@ import "./Hero.scss";
 import angular from "../../assets/images/skills/angular.png";
 import react from "../../assets/images/skills/reactjs.png";
 import js from "../../assets/images/skills/javascript.png";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/profile.png";
 
 const Hero = () => {
   return (
