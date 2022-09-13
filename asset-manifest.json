@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ac201cb2.css",
-    "main.js": "/Portfolio/static/js/main.83eb8e46.js",
-    "static/css/758.174c4c58.chunk.css": "/Portfolio/static/css/758.174c4c58.chunk.css",
-    "static/js/758.2e0e47dc.chunk.js": "/Portfolio/static/js/758.2e0e47dc.chunk.js",
+    "main.js": "/Portfolio/static/js/main.20dbdb61.js",
+    "static/css/775.47112169.chunk.css": "/Portfolio/static/css/775.47112169.chunk.css",
+    "static/js/775.d3ff7263.chunk.js": "/Portfolio/static/js/775.d3ff7263.chunk.js",
     "static/css/858.ef2c1031.chunk.css": "/Portfolio/static/css/858.ef2c1031.chunk.css",
     "static/js/858.6a1e8550.chunk.js": "/Portfolio/static/js/858.6a1e8550.chunk.js",
     "static/css/390.bac8f16e.chunk.css": "/Portfolio/static/css/390.bac8f16e.chunk.css",
@@ -13,11 +13,11 @@
     "static/media/Yummy Taste.png": "/Portfolio/static/media/Yummy Taste.6f85277ce3d37dedd936.png",
     "static/media/Cards Memory Game.png": "/Portfolio/static/media/Cards Memory Game.9ad6b76619ce2aa1fcf6.png",
     "static/media/NOICELAND.png": "/Portfolio/static/media/NOICELAND.36b982e4518f364d8e5d.png",
+    "static/media/profile.png": "/Portfolio/static/media/profile.9c5f9303af9ffb86abca.png",
     "static/media/Personal Landing Page.png": "/Portfolio/static/media/Personal Landing Page.eae86788dcee1e3201be.png",
     "static/media/Happy Paws.png": "/Portfolio/static/media/Happy Paws.054bc7979042e9cdc9ef.png",
     "static/media/Pomodoro Timer.png": "/Portfolio/static/media/Pomodoro Timer.8f07a2468d65488f502a.png",
     "static/media/To-Do List.png": "/Portfolio/static/media/To-Do List.a3e31849bfc51daca822.png",
-    "static/media/profile.jpg": "/Portfolio/static/media/profile.d09599a0e10f07165d7b.jpg",
     "static/media/Karim Mamdouh Mohamed Resume.pdf": "/Portfolio/static/media/Karim Mamdouh Mohamed Resume.d918f16c2b34d5a78cdb.pdf",
     "static/media/primeng.png": "/Portfolio/static/media/primeng.51d9a4aab4ef52be6e8d.png",
     "static/media/logo_light.png": "/Portfolio/static/media/logo_light.4efa68ec9962760723e0.png",
@@ -37,9 +37,9 @@
     "index.html": "/Portfolio/index.html",
     "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.ada7134fcf74df323a57b2e23aaffbb3.svg",
     "main.ac201cb2.css.map": "/Portfolio/static/css/main.ac201cb2.css.map",
-    "main.83eb8e46.js.map": "/Portfolio/static/js/main.83eb8e46.js.map",
-    "758.174c4c58.chunk.css.map": "/Portfolio/static/css/758.174c4c58.chunk.css.map",
-    "758.2e0e47dc.chunk.js.map": "/Portfolio/static/js/758.2e0e47dc.chunk.js.map",
+    "main.20dbdb61.js.map": "/Portfolio/static/js/main.20dbdb61.js.map",
+    "775.47112169.chunk.css.map": "/Portfolio/static/css/775.47112169.chunk.css.map",
+    "775.d3ff7263.chunk.js.map": "/Portfolio/static/js/775.d3ff7263.chunk.js.map",
     "858.ef2c1031.chunk.css.map": "/Portfolio/static/css/858.ef2c1031.chunk.css.map",
     "858.6a1e8550.chunk.js.map": "/Portfolio/static/js/858.6a1e8550.chunk.js.map",
     "390.bac8f16e.chunk.css.map": "/Portfolio/static/css/390.bac8f16e.chunk.css.map",
@@ -49,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.ac201cb2.css",
-    "static/js/main.83eb8e46.js"
+    "static/js/main.20dbdb61.js"
   ]
 }
