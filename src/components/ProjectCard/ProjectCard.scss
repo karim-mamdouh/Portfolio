@@ -24,10 +24,27 @@
   &__text {
     display: flex;
     flex-direction: column;
-    h4 {
+    h4:first-child {
+      display: none;
+    }
+    h4:nth-child(2),
+    h5 {
+      display: block;
+    }
+    h4,
+    h5 {
       padding: 10px 0;
-      font-size: 1.3rem;
+
       text-align: center;
+    }
+    h4 {
+      font-size: 1.3rem;
+      a:first-child {
+        color: white !important;
+      }
+    }
+    h5 {
+      font-size: 1rem;
     }
     p {
       margin: 10px 0;
@@ -58,6 +75,13 @@
     margin: 0 10px;
   }
   @media ($md-screen) {
+    h4:first-child {
+      display: block;
+    }
+    h4:nth-child(2),
+    h5 {
+      display: none;
+    }
     &__img-container {
       width: 70%;
     }

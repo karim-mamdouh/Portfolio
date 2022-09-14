@@ -5,6 +5,7 @@ import "./ProjectCard.scss";
 //Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = (props) => {
   //classes variable to pass classes externally, and adds/removes animations based on animation direction
@@ -23,6 +24,7 @@ const ProjectCard = (props) => {
       </figure>
       <div className="project__text">
         {/* Project title */}
+        {/* Large screen title */}
         <h4>
           <a href={props.project.link} target="_blank" rel="noreferrer">
             &lt;{props.project.name} /&gt; &nbsp;
@@ -31,6 +33,19 @@ const ProjectCard = (props) => {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </h4>
+        {/* Small screen title */}
+        <h4>
+          <a href={props.project.link} target="_blank" rel="noreferrer">
+            &lt;{props.project.name} /&gt; &nbsp;
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+          </a>
+        </h4>
+        <h5>
+          <a href={props.project.repo} target="_blank" rel="noreferrer">
+            &lt;GitHub Repo /&gt; &nbsp;
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </h5>
         {/* Project description */}
         <p>{props.project.description}</p>
         <div className="project__tech-container">

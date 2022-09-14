@@ -1,3 +1,5 @@
+@import "../../styles/colors.module";
+
 %circle {
   width: 10px;
   height: 10px;
@@ -24,18 +26,18 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    padding: 30px;
   }
   .red-circle {
     @extend %circle;
-    background-color: #d2534f;
+    background-color: $red-color;
   }
   .green-circle {
     @extend %circle;
-    background-color: #25a83d;
+    background-color: $green-color;
   }
   .orange-circle {
     @extend %circle;
-    background-color: #d29f2f;
+    background-color: $orange-color;
   }
 }

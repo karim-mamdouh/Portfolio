@@ -1,3 +1,5 @@
+@import "../../styles/colors.module";
+
 .form-success {
   min-height: 500px;
   display: flex;
@@ -11,10 +13,10 @@
     margin-bottom: 50px;
   }
   &__fail {
-    color: #d2534f;
+    color: $red-color;
   }
   &__success {
-    color: #25a73d;
+    color: $green-color;
   }
   p {
     font-size: 1.5rem;

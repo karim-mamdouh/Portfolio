@@ -3,7 +3,15 @@ import React from "react";
 //Scss styling file
 import "./FormInput.scss";
 
-const FormInput = ({ label, register, validations, type, placeholder }) => {
+const FormInput = ({
+  label,
+  register,
+  validations,
+  type,
+  placeholder,
+  error,
+}) => {
+  console.log(error);
   if (type === "textarea") {
     return (
       //Textarea input
@@ -12,6 +20,10 @@ const FormInput = ({ label, register, validations, type, placeholder }) => {
           <code>&lt;{label} /&gt;</code>
         </label>
         <textarea
+          style={{
+            borderColor: error ? "#d2534f" : "",
+            boxShadow: error ? "0 0 0 0.2rem #d2534f" : "",
+          }}
           className="input"
           placeholder={placeholder}
           {...register(label, validations)}
@@ -26,6 +38,10 @@ const FormInput = ({ label, register, validations, type, placeholder }) => {
         <code>&lt;{label} /&gt;</code>
       </label>
       <input
+        style={{
+          borderColor: error ? "#d2534f" : "",
+          boxShadow: error ? "0 0 0 0.2rem #d2534f" : "",
+        }}
         className="input"
         type={type}
         placeholder={placeholder}

@@ -60,11 +60,13 @@ const ContactForm = (props) => {
           label="Name"
           validations={{ required: true }}
           register={register}
+          error={errors.Name}
         />
         {/* Name validation message */}
         {errors.Name && <p className="form__error">This field is required</p>}
         {/* Email input */}
         <FormInput
+          error={errors.Email}
           type="text"
           placeholder="email@address.com"
           label="Email"
@@ -84,6 +86,7 @@ const ContactForm = (props) => {
         )}
         {/* Phone input */}
         <FormInput
+          error={errors.Phone}
           type="tel"
           placeholder="01234567890"
           label="Phone"
@@ -97,6 +100,7 @@ const ContactForm = (props) => {
         )}
         {/* Message input */}
         <FormInput
+          error={errors.Message}
           type="textarea"
           placeholder="What do you have in mind?"
           label="Message"

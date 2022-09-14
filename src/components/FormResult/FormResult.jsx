@@ -20,7 +20,8 @@ const FormResult = (props) => {
             icon={faCheckCircle}
           />
           <p>
-            Thanks for contacting me, I will reply on your request/question ASAP
+            Thanks for contacting me, I will reply on your request / question
+            ASAP
           </p>
         </>
       )}
