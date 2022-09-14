@@ -1,7 +1,6 @@
 # My Portfolio 👨‍💻
 
 <p>Welcome to my portfolio website</p> 
-<img src="https://img.shields.io/github/watchers/karim-mamdouh/Portfolio.svg">
 <p>Here you can see all my projects and my personal/contact information,
 If you have any project in mind please don't hesitate sending your question or request & kindly fill the form, I will reply as soon as I receive your submitted request</p>
 
