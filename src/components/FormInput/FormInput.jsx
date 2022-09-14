@@ -11,7 +11,6 @@ const FormInput = ({
   placeholder,
   error,
 }) => {
-  console.log(error);
   if (type === "textarea") {
     return (
       //Textarea input
