@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a4cc5b1a.css",
-    "main.js": "/Portfolio/static/js/main.8ce9638c.js",
-    "static/css/833.9d2c7fbd.chunk.css": "/Portfolio/static/css/833.9d2c7fbd.chunk.css",
-    "static/js/833.cd8e96aa.chunk.js": "/Portfolio/static/js/833.cd8e96aa.chunk.js",
+    "main.js": "/Portfolio/static/js/main.621d1b57.js",
+    "static/css/46.f97c4999.chunk.css": "/Portfolio/static/css/46.f97c4999.chunk.css",
+    "static/js/46.e8abc131.chunk.js": "/Portfolio/static/js/46.e8abc131.chunk.js",
     "static/css/858.b7f0998a.chunk.css": "/Portfolio/static/css/858.b7f0998a.chunk.css",
     "static/js/858.6a1e8550.chunk.js": "/Portfolio/static/js/858.6a1e8550.chunk.js",
     "static/css/390.1f472f19.chunk.css": "/Portfolio/static/css/390.1f472f19.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/Personal Landing Page.png": "/Portfolio/static/media/Personal Landing Page.eae86788dcee1e3201be.png",
     "static/media/Happy Paws.png": "/Portfolio/static/media/Happy Paws.054bc7979042e9cdc9ef.png",
     "static/media/Pomodoro Timer.png": "/Portfolio/static/media/Pomodoro Timer.8f07a2468d65488f502a.png",
+    "static/media/CRUD Operations.png": "/Portfolio/static/media/CRUD Operations.b8eb7fc9a83220436f8f.png",
     "static/media/To-Do List.png": "/Portfolio/static/media/To-Do List.a3e31849bfc51daca822.png",
     "static/media/Karim Mamdouh Mohamed Resume.pdf": "/Portfolio/static/media/Karim Mamdouh Mohamed Resume.d918f16c2b34d5a78cdb.pdf",
     "static/media/primeng.png": "/Portfolio/static/media/primeng.51d9a4aab4ef52be6e8d.png",
@@ -35,12 +36,13 @@
     "static/media/typescript.png": "/Portfolio/static/media/typescript.ad24192e62d354f1c34c.png",
     "static/media/javascript.png": "/Portfolio/static/media/javascript.fe9c5be5e12962c9bad8.png",
     "static/media/ngrx.svg": "/Portfolio/static/media/ngrx.c5713617f7ba3a274c8f2958d29765ce.svg",
+    "static/media/redux.svg": "/Portfolio/static/media/redux.7009b5de06b324cf4876ae5b352973b5.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/leetcode.svg": "/Portfolio/static/media/leetcode.ada7134fcf74df323a57b2e23aaffbb3.svg",
     "main.a4cc5b1a.css.map": "/Portfolio/static/css/main.a4cc5b1a.css.map",
-    "main.8ce9638c.js.map": "/Portfolio/static/js/main.8ce9638c.js.map",
-    "833.9d2c7fbd.chunk.css.map": "/Portfolio/static/css/833.9d2c7fbd.chunk.css.map",
-    "833.cd8e96aa.chunk.js.map": "/Portfolio/static/js/833.cd8e96aa.chunk.js.map",
+    "main.621d1b57.js.map": "/Portfolio/static/js/main.621d1b57.js.map",
+    "46.f97c4999.chunk.css.map": "/Portfolio/static/css/46.f97c4999.chunk.css.map",
+    "46.e8abc131.chunk.js.map": "/Portfolio/static/js/46.e8abc131.chunk.js.map",
     "858.b7f0998a.chunk.css.map": "/Portfolio/static/css/858.b7f0998a.chunk.css.map",
     "858.6a1e8550.chunk.js.map": "/Portfolio/static/js/858.6a1e8550.chunk.js.map",
     "390.1f472f19.chunk.css.map": "/Portfolio/static/css/390.1f472f19.chunk.css.map",
@@ -50,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.a4cc5b1a.css",
-    "static/js/main.8ce9638c.js"
+    "static/js/main.621d1b57.js"
   ]
 }
