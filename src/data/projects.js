@@ -12,6 +12,8 @@ import primeng from "../assets/images/skills/primeng.png";
 import pwa from "../assets/images/skills/pwa.png";
 import firebase from "../assets/images/skills/firebase.png";
 import ngrx from "../assets/images/skills/ngrx.svg";
+import redux from "../assets/images/skills/redux.svg";
+import reactform from "../assets/images/skills/react_hook_form.png";
 //Project images
 import cards from "../assets/images/projects/Cards Memory Game.png";
 import paws from "../assets/images/projects/Happy Paws.png";
@@ -20,6 +22,7 @@ import personal from "../assets/images/projects/Personal Landing Page.png";
 import pomodoro from "../assets/images/projects/Pomodoro Timer.png";
 import todo from "../assets/images/projects/To-Do List.png";
 import yummy from "../assets/images/projects/Yummy Taste.png";
+import crud from "../assets/images/projects/CRUD Operations.png";
 
 let idCounter = 0;
 //Factory function for project object
@@ -48,6 +51,7 @@ const techGenerator = (image, name, link) => ({
 });
 //Array of projects
 export const projects = [
+  //Happy Paws project
   projectGenerator(
     idCounter,
     "Happy Paws",
@@ -71,6 +75,7 @@ export const projects = [
       techGenerator(primeng, "PrimeNG", "http://primefaces.org/primeng/"),
     ]
   ),
+  //Yummy-taste project
   projectGenerator(
     ++idCounter,
     "Yummy🍽Taste",
@@ -93,6 +98,27 @@ export const projects = [
       techGenerator(primeng, "PrimeNG", "http://primefaces.org/primeng/"),
     ]
   ),
+  //CRUD project
+  projectGenerator(
+    ++idCounter,
+    "CRUD Operations",
+    "Simple crud operations app using Redux as state manegement, Create, View, Update and Delete users",
+    crud,
+    "http://karim-mamdouh.github.io/CRUD-Operations/",
+    "https://github.com/karim-mamdouh/CRUD-Operations",
+    [
+      techGenerator(reactjs, "React JS", "https://reactjs.org/"),
+      techGenerator(redux, "Redux", "https://redux.js.org/"),
+      techGenerator(
+        reactform,
+        "React Hook Form",
+        "https://react-hook-form.com/"
+      ),
+      techGenerator(js, "JavaScript", "https://www.javascript.com/"),
+      techGenerator(sass, "Sass", "https://sass-lang.com/"),
+    ]
+  ),
+  //Card game project
   projectGenerator(
     ++idCounter,
     "Card Game",
@@ -114,6 +140,7 @@ export const projects = [
       techGenerator(js, "JavaScript", "https://www.javascript.com/"),
     ]
   ),
+  //NOICELAND project
   projectGenerator(
     ++idCounter,
     "NOICELAND",
@@ -135,6 +162,7 @@ export const projects = [
       techGenerator(bs, "Bootstrap", "https://getbootstrap.com/"),
     ]
   ),
+  //Personal project
   projectGenerator(
     ++idCounter,
     "Personal",
@@ -156,6 +184,7 @@ export const projects = [
       techGenerator(bs, "Bootstrap", "https://getbootstrap.com/"),
     ]
   ),
+  //Tasks manager project
   projectGenerator(
     ++idCounter,
     "Tasks Manager",
@@ -177,6 +206,7 @@ export const projects = [
       techGenerator(js, "JavaScript", "https://www.javascript.com/"),
     ]
   ),
+  //Pomodoro timer project
   projectGenerator(
     ++idCounter,
     "Pomodoro Timer",
