@@ -4,7 +4,7 @@
 <p>Here you can see all my projects and my personal/contact information,
 If you have any project in mind please don't hesitate sending your question or request & kindly fill the form, I will reply as soon as I receive your submitted request</p>
 
-## Features
+## 📝 Features
 
 - Light/Dark mode ☀ 🌙
 - Mobile first design 📱
@@ -14,7 +14,7 @@ If you have any project in mind please don't hesitate sending your question or r
 - Simple CSS animations 💥
 - My projects carousel
 
-## Packages Used
+## 📦 Packages Used
 
 <a href="https://www.npmjs.com/package/react-dark-mode-toggle">
 <img src="https://img.shields.io/badge/Made%20with-Dark Mode Toggle-1f425f.svg"/>
@@ -35,7 +35,7 @@ If you have any project in mind please don't hesitate sending your question or r
 <img src="https://img.shields.io/badge/Made%20with-Font Awesome-1f425f.svg"/>
 </a>
 
-## Technologies Used
+## 🛠 Technologies Used
 
 <div>
 <a href="https://reactjs.org/"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></a>
