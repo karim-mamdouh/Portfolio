@@ -5,17 +5,17 @@ import "./InfoCard.scss";
 //Icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const InfoCard = (props) => {
+const InfoCard = ({ anchor, href, icon, head, text }) => {
   //If anchor optin is selected the returned content is wrapped with anchor tag
   //with entered href content
-  if (props.anchor) {
+  if (anchor) {
     return (
       <div className="info-card">
-        <a href={props.href}>
-          <FontAwesomeIcon icon={props.icon} className="info-card__icon" />
+        <a href={href}>
+          <FontAwesomeIcon icon={icon} className="info-card__icon" />
           <p className="info-card__text">
-            <span>{props.head}</span>
-            {props.text}
+            <span>{head}</span>
+            {text}
           </p>
         </a>
       </div>
@@ -24,10 +24,10 @@ const InfoCard = (props) => {
   //Otherwise it's returned as normal text
   return (
     <div className="info-card">
-      <FontAwesomeIcon icon={props.icon} className="info-card__icon" />
+      <FontAwesomeIcon icon={icon} className="info-card__icon" />
       <p className="info-card__text">
-        <span>{props.head}</span>
-        {props.text}
+        <span>{head}</span>
+        {text}
       </p>
     </div>
   );

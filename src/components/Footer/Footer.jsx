@@ -23,6 +23,7 @@ const Footer = () => {
           href="https://www.linkedin.com/in/karim-mamdouh-084b25141/"
           target="_blank"
           rel="noreferrer"
+          title="LinkedIn"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
@@ -31,6 +32,7 @@ const Footer = () => {
           href="https://github.com/karim-mamdouh"
           target="_blank"
           rel="noreferrer"
+          title="GitHub"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
@@ -39,6 +41,7 @@ const Footer = () => {
           href="https://www.hackerrank.com/karim_mamdouh_51"
           target="_blank"
           rel="noreferrer"
+          title="HackerRank"
         >
           <FontAwesomeIcon icon={faHackerrank} />
         </a>
@@ -47,6 +50,7 @@ const Footer = () => {
           href="https://www.freecodecamp.org/karim-mamdouh"
           target="_blank"
           rel="noreferrer"
+          title="Free Code Camp"
         >
           <FontAwesomeIcon icon={faFreeCodeCamp} />
         </a>
@@ -55,6 +59,7 @@ const Footer = () => {
           href="https://leetcode.com/user0171C/"
           target="_blank"
           rel="noreferrer"
+          title="Leet Code"
         >
           <img src={leet} alt="leetcode-logo" />
         </a>

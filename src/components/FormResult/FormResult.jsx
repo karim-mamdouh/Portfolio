@@ -9,11 +9,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const FormResult = (props) => {
+const FormResult = ({ result }) => {
   return (
     <div className="form-success">
       {/* Success message */}
-      {props.result === true && (
+      {result === true && (
         <>
           <FontAwesomeIcon
             className="form-success__success"
@@ -26,7 +26,7 @@ const FormResult = (props) => {
         </>
       )}
       {/* Fail message */}
-      {props.result === false && (
+      {result === false && (
         <>
           <FontAwesomeIcon
             className="form-success__fail"

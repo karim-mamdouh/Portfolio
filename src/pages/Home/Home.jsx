@@ -8,11 +8,11 @@ import Projects from "../../components/Projects/Projects";
 import Path from "../../components/Path/Path";
 import ContactMe from "../../components/ContactMe/ContactMe";
 
-const Home = (props) => {
+const Home = ({ isDark }) => {
   return (
     <section className="home">
       {/* Hero section */}
-      <Hero isDark={props.isDark} />
+      <Hero isDark={isDark} />
       {/* Right to left path, appear on large screens only */}
       <Path
         title="Projects"

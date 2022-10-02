@@ -10,7 +10,7 @@ import FormInput from "../FormInput/FormInput";
 //URL for sending contact email
 const baseURL = "https://api.emailjs.com/api/v1.0/email/send";
 
-const ContactForm = (props) => {
+const ContactForm = ({ result }) => {
   //Hook forms variables
   const {
     register,
@@ -35,10 +35,10 @@ const ContactForm = (props) => {
     axios
       .post(baseURL, formData)
       .then(() => {
-        props.result(true);
+        result(true);
       })
       .catch(() => {
-        props.result(false);
+        result(false);
       });
   };
 

@@ -14,7 +14,7 @@ import DarkModeToggle from "react-dark-mode-toggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const NavBar = (props) => {
+const NavBar = ({ updateHero }) => {
   const ref = useRef(); //Used to change logo image on switching dark/ligt modes
   const [themeState, setThemeState] = useState(true); //Flag to hold status of dark/light mode
   const [showCollapse, setShowCollapse] = useState(false); //Flag to hold status of collapsed menu in small screens
@@ -30,7 +30,7 @@ const NavBar = (props) => {
       ref.current.src = logoDark;
       setThemeState(true);
     }
-    props.updateHero();
+    updateHero();
   };
   //Function called when collapse button is clicked to show/hide collapse menu
   const alterCollapse = () => {

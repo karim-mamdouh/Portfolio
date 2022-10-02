@@ -21,7 +21,7 @@ const AboutSkills = (props) => {
           <p className="skills__title">&lt;FrameWorks /&gt;</p>
           <div className="skills__set">
             {skills.frameworks.map((skill) => (
-              <SkillCard image={skill.image} key={skill.id} />
+              <SkillCard image={skill.image} key={skill.id} name={skill.name} />
             ))}
           </div>
         </div>
@@ -30,7 +30,7 @@ const AboutSkills = (props) => {
           <p className="skills__title">&lt;Languages /&gt;</p>
           <div className="skills__set">
             {skills.languages.map((skill) => (
-              <SkillCard image={skill.image} key={skill.id} />
+              <SkillCard image={skill.image} key={skill.id} name={skill.name} />
             ))}
           </div>
         </div>
@@ -39,7 +39,7 @@ const AboutSkills = (props) => {
           <p className="skills__title">&lt;Tools /&gt;</p>
           <div className="skills__set">
             {skills.tools.map((skill) => (
-              <SkillCard image={skill.image} key={skill.id} />
+              <SkillCard image={skill.image} key={skill.id} name={skill.name} />
             ))}
           </div>
         </div>

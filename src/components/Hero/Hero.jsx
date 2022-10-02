@@ -9,7 +9,7 @@ import js from "../../assets/images/skills/javascript.png";
 import profileLight from "../../assets/images/profile_light.png";
 import profileDark from "../../assets/images/profile_dark.png";
 
-const Hero = (props) => {
+const Hero = ({ isDark }) => {
   return (
     <header className="hero">
       {/* Welcome text */}
@@ -35,7 +35,7 @@ const Hero = (props) => {
         <figure className="hero__profile">
           <img
             alt="profile"
-            src={props.isDark ? profileDark : profileLight}
+            src={isDark ? profileDark : profileLight}
             id="portfolio"
           />
         </figure>

@@ -3,7 +3,7 @@ import React from "react";
 //Scss styling file
 import "./ExperienceCard.scss";
 
-const ExperienceCard = (props) => {
+const ExperienceCard = ({ experience }) => {
   return (
     <div className="experience">
       {/* Timeline shape */}
@@ -14,15 +14,15 @@ const ExperienceCard = (props) => {
       {/* Experience content */}
       <div className="experience__content">
         {/* Date */}
-        <p className="experience__subtitle">{props.experience.date}</p>
+        <p className="experience__subtitle">{experience.date}</p>
         {/* Title */}
-        <h3 className="experience__title">{props.experience.title}</h3>
+        <h3 className="experience__title">{experience.title}</h3>
         {/* Company */}
-        <p className="experience__subtitle">{props.experience.company}</p>
+        <p className="experience__subtitle">{experience.company}</p>
         {/* Description block */}
         <div className="experience__body">
-          {props.experience.details &&
-            props.experience.details.map((element, index) => (
+          {experience.details &&
+            experience.details.map((element, index) => (
               <p key={index}>{element}</p>
             ))}
         </div>

@@ -7,6 +7,7 @@ html {
   --highlight-color: #2f89c9;
   --line-color: #21243a;
   --container-background: #24292f;
+  -webkit-tap-highlight-color: transparent;
   $theme: "light";
 }
 html[data-theme="dark"] {
