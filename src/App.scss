@@ -1,18 +1,10 @@
-@import "./styles/screen_brakpoints.module";
+@import "./assets/scss/screen_brakpoints.module";
 
 main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-}
-.test {
-  width: 50px;
-  height: 50px;
-  background-color: red;
-  position: fixed;
-  bottom: 0;
-  right: 0;
 }
 .loading-msg {
   display: flex;

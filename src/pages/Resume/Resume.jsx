@@ -1,12 +1,10 @@
-//React
-import React from "react";
 //Scss styling file
 import "./Resume.scss";
 //Components
-import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
-import IDEContainer from "../../components/IDEContainer/IDEContainer";
+import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
+import IDEContainer from "../../shared/components/IDEContainer/IDEContainer";
 //Data
-import { experience } from "../../data/experience";
+import { experience } from "../../config/data/experience";
 
 const Resume = () => {
   return (

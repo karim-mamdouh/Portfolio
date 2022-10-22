@@ -1,0 +1,33 @@
+@import "../../../../assets/scss/screen_brakpoints.module";
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+  &__container {
+    flex-grow: 1;
+    scroll-behavior: smooth;
+  }
+
+  &__icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon-container:first-child {
+    margin-right: 20px;
+  }
+  &__icon-container:last-child {
+    margin-left: 20px;
+  }
+  button {
+    background-color: transparent;
+    border: 0;
+    color: var(--sec-text-color);
+    font-size: 1.5rem;
+  }
+  button:hover {
+    color: white;
+    cursor: pointer;
+  }
+}

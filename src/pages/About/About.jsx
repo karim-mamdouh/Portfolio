@@ -1,12 +1,10 @@
-//React
-import React from "react";
 //Scss styling file
 import "./About.scss";
 //Components
-import AboutSummary from "../../components/AboutSummary/AboutSummary";
-import AboutInfo from "../../components/AboutInfo/AboutInfo";
-import AboutSkills from "../../components/AboutSkills/AboutSkills";
-import Line from "../../components/Line/Line";
+import AboutSummary from "./components/AboutSummary/AboutSummary";
+import AboutInfo from "./components/AboutInfo/AboutInfo";
+import AboutSkills from "./components/AboutSkills/AboutSkills";
+import Line from "../../shared/components/Line/Line";
 
 const About = () => {
   return (

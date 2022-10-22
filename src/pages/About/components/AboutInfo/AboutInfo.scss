@@ -1,0 +1,24 @@
+@import "../../../../assets/scss/screen_brakpoints.module";
+
+.info {
+  width: 100%;
+  p:first-child,
+  p:last-child {
+    color: var(--sec-text-color);
+  }
+  p:first-child {
+    padding-bottom: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media ($xl-screen) {
+  .info {
+    width: 45%;
+  }
+}
+@media ($xxl-screen) {
+  .info {
+    width: 40%;
+  }
+}

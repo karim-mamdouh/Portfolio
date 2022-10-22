@@ -1,6 +1,9 @@
+//React
 import React from "react";
 import ReactDOM from "react-dom/client";
+//Scss styling file
 import "./index.scss";
+//Components
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

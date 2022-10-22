@@ -1,0 +1,70 @@
+@import "../../../index.scss";
+@import "../../../assets/scss/screen_brakpoints.module";
+
+.footer {
+  width: 100%;
+  z-index: 20;
+  position: sticky;
+  bottom: 0;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  color: var(--sec-text-color);
+  padding: 10px 25px;
+  p {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  border: 2px solid var(--main-text-color) {
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  background-color: var(--background);
+  a {
+    color: var(--sec-text-color);
+    font-size: 2rem;
+    padding: 0 10px;
+    img {
+      width: 30px;
+      filter: invert(80%) sepia(9%) saturate(38%) hue-rotate(201deg)
+        brightness(95%) contrast(87%);
+    }
+  }
+  a:hover {
+    color: var(--main-text-color);
+    img {
+      @if $theme = "light" {
+        filter: none;
+      } @else {
+        filter: invert(100%)
+          sepia(100%)
+          saturate(0%)
+          hue-rotate(231deg)
+          brightness(110%)
+          contrast(101%);
+      }
+    }
+  }
+}
+@media ($md-screen) {
+  .footer {
+    width: fit-content;
+    border: 2px solid var(--main-text-color) {
+      right: 0;
+      bottom: 0;
+    }
+    border-radius: 20px 0 0 0;
+    p {
+      text-align: start;
+    }
+    &__container {
+      justify-content: start;
+    }
+  }
+}
