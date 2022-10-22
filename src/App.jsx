@@ -1,5 +1,5 @@
 //React
-import React, { Suspense, useState } from "react";
+import { Suspense, useState } from "react";
 import { HashRouter as Router } from "react-router-dom";
 //Scss styling file
 import "./App.scss";

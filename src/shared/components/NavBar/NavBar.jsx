@@ -1,5 +1,6 @@
 //React
-import React, { useState } from "react";
+import { useState } from "react";
+import PropTypes from "prop-types";
 import { useRef } from "react";
 import { NavLink } from "react-router-dom";
 //Scss styling file
@@ -138,6 +139,11 @@ const NavBar = ({ updateHero }) => {
       </div>
     </nav>
   );
+};
+
+//Props type validation
+NavBar.propTypes = {
+  updateHero: PropTypes.func.isRequired,
 };
 
 export default NavBar;
