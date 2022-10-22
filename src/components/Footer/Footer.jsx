@@ -46,23 +46,23 @@ const Footer = () => {
           <FontAwesomeIcon icon={faHackerrank} />
         </a>
         {/* Freecodecamp */}
-        <a
+        {/* <a
           href="https://www.freecodecamp.org/karim-mamdouh"
           target="_blank"
           rel="noreferrer"
           title="Free Code Camp"
         >
           <FontAwesomeIcon icon={faFreeCodeCamp} />
-        </a>
+        </a> */}
         {/* Leetcode */}
-        <a
+        {/* <a
           href="https://leetcode.com/user0171C/"
           target="_blank"
           rel="noreferrer"
           title="Leet Code"
         >
           <img src={leet} alt="leetcode-logo" />
-        </a>
+        </a> */}
       </div>
     </footer>
   );
