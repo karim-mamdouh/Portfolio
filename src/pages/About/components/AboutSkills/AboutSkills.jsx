@@ -6,7 +6,7 @@ import "./AboutSkills.scss";
 import IDEContainer from "../../../../shared/components/IDEContainer/IDEContainer";
 import SkillCard from "../SkillCard/SkillCard";
 //Skills data
-import { skills } from "../../../../config/data/skills";
+import { skills } from "../../../../config/db/skills";
 
 const AboutSkills = ({ className }) => {
   //classes variable to pass classes externally

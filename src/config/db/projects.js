@@ -14,6 +14,7 @@ import firebase from "../../assets/images/skills/firebase.png";
 import ngrx from "../../assets/images/skills/ngrx.svg";
 import redux from "../../assets/images/skills/redux.svg";
 import reactform from "../../assets/images/skills/react_hook_form.png";
+import i18n from "../../assets/images/skills/i18n.png";
 //Project images
 import cards from "../../assets/images/projects/Cards Memory Game.png";
 import paws from "../../assets/images/projects/Happy Paws.png";
@@ -109,6 +110,7 @@ export const projects = [
     [
       techGenerator(reactjs, "React JS", "https://reactjs.org/"),
       techGenerator(redux, "Redux", "https://redux.js.org/"),
+      techGenerator(i18n, "i18next", "https://www.i18next.com/"),
       techGenerator(
         reactform,
         "React Hook Form",

@@ -7,7 +7,7 @@ import "./Projects.scss";
 import IDEContainer from "../../../../shared/components/IDEContainer/IDEContainer";
 import ProjectCard from "../ProjectCard/ProjectCard";
 //Data
-import { projects } from "../../../../config/data/projects";
+import { projects } from "../../../../config/db/projects";
 //Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";

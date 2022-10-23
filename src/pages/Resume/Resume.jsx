@@ -4,7 +4,7 @@ import "./Resume.scss";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import IDEContainer from "../../shared/components/IDEContainer/IDEContainer";
 //Data
-import { experience } from "../../config/data/experience";
+import { experience } from "../../config/db/experience";
 
 const Resume = () => {
   return (
