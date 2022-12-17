@@ -25,9 +25,9 @@ const AboutSummary = ({ className }) => {
         <p>
           I'm an enthusiastic and detail-oriented Frontend Software Engineer
           with experience in troubleshooting, logical thinking and customer
-          satisfaction seeking an entry-level position with Company to use my
-          skills in coding, troubleshooting complex problems, and assisting in
-          the timely completion of projects.
+          satisfaction seeking to use my skills in coding, troubleshooting
+          complex problems, learning new technologies and assisting in the
+          timely completion of projects.
         </p>
       </div>
     </IDEContainer>

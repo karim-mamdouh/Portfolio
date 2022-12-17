@@ -11,6 +11,12 @@ const experienceGenerator = (date, title, company, details) => ({
 export const experience = {
   work: [
     experienceGenerator(
+      "Nov. 2022 - Present",
+      "Frontend Developer",
+      "Eshtri Aqar",
+      []
+    ),
+    experienceGenerator(
       "Nov. 2021 - Apr. 2022",
       "Development of Fan Testing System",
       "Freelance",
