@@ -21,7 +21,7 @@ const Footer = () => {
         <FooterElement
           icon={faLinkedin}
           title="LinkedIn"
-          href="https://www.linkedin.com/in/karim-mamdouh-084b25141/"
+          href="https://www.linkedin.com/in/karim-mamdouh-mohamed/"
         />
         {/* Github */}
         <FooterElement

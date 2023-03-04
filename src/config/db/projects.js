@@ -7,7 +7,7 @@ import js from "../../assets/images/skills/javascript.png";
 import bs from "../../assets/images/skills/bootstrap.png";
 import reactjs from "../../assets/images/skills/reactjs.png";
 import sass from "../../assets/images/skills/sass.png";
-import cSharp from "../../assets/images/skills/csharp.png";
+// import cSharp from "../../assets/images/skills/csharp.png";
 import primeng from "../../assets/images/skills/primeng.png";
 import pwa from "../../assets/images/skills/pwa.png";
 import firebase from "../../assets/images/skills/firebase.png";

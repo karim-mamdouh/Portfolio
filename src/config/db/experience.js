@@ -13,8 +13,13 @@ export const experience = {
     experienceGenerator(
       "Nov. 2022 - Present",
       "Frontend Developer",
-      "Eshtri Aqar",
-      []
+      "Certified IT Consultants CIC",
+      [
+        "Achievements:",
+        "- Proposed & participated in the creation of a generic angular library that contains generic components, generic services, generic interceptors & generic directives.",
+        "This library can then be installed with all of it's dependencies on any new project, accordingly total project time is reduced",
+        "- Participated in the creation of a core project that includes all required packages to be later downloaded & used in new projects",
+      ]
     ),
     experienceGenerator(
       "Nov. 2021 - Apr. 2022",
