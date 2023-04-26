@@ -15,6 +15,7 @@ import ngrx from "../../assets/images/skills/ngrx.svg";
 import redux from "../../assets/images/skills/redux.svg";
 import reactform from "../../assets/images/skills/react_hook_form.png";
 import i18n from "../../assets/images/skills/i18n.png";
+import npmlogo from "../../assets/images/skills/npm.png";
 //Project images
 import cards from "../../assets/images/projects/Cards Memory Game.png";
 import paws from "../../assets/images/projects/Happy Paws.png";
@@ -24,6 +25,7 @@ import pomodoro from "../../assets/images/projects/Pomodoro Timer.png";
 import todo from "../../assets/images/projects/To-Do List.png";
 import yummy from "../../assets/images/projects/Yummy Taste.png";
 import crud from "../../assets/images/projects/CRUD Operations.png";
+import npm from "../../assets/images/projects/npm.webp";
 
 let idCounter = 0;
 //Factory function for project object
@@ -52,9 +54,24 @@ const techGenerator = (image, name, link) => ({
 });
 //Array of projects
 export const projects = [
-  //Happy Paws project
+  //ngx-lite-video package
   projectGenerator(
     idCounter,
+    "ngx-lite-video",
+    "Angular package for lazy loading embedded YouTube and Vimeo videos, improving page speed and user experience.",
+    npm,
+    "https://www.npmjs.com/package/ngx-lite-video",
+    "https://github.com/karim-mamdouh/ngx-lite-video",
+    [
+      techGenerator(npmlogo, "npm", "https://www.npmjs.com/"),
+      techGenerator(angular, "Angular", "https://angular.io/"),
+      techGenerator(ts, "TypeScript", "https://www.typescriptlang.org/"),
+      techGenerator(sass, "Sass", "https://sass-lang.com/"),
+    ]
+  ),
+  //Happy Paws project
+  projectGenerator(
+    ++idCounter,
     "Happy Paws",
     "Angular pet platform application with all services and supplies for all pet owners",
     paws,
