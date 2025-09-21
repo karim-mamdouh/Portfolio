@@ -39,7 +39,7 @@
   a:hover {
     color: var(--main-text-color);
     img {
-      @if $theme = "light" {
+      @if $theme "=" "light" {
         filter: none;
       } @else {
         filter: invert(100%)
